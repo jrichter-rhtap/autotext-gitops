@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: audioo-database-config
+data:
+  VECTORDB_HOST: "audioo-database"
+  VECTORDB_PORT: ""
